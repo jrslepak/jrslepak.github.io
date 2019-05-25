@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Justin Slepak #
-
 I am a PhD candidate at
 [Northeastern University's Programming Research Lab](http://prl.ccs.neu.edu),
 interested in the design of programming languages,
