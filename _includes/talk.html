@@ -1,0 +1,18 @@
+<div class="collection__item">
+  <article class="talk" id="{{ post.itemname }}">
+  <div class="title">
+    {%- if post.fileurl -%}
+    <a href="{{ post.fileurl }}">{{ post.title }}</a>
+    {%- else -%}
+    {{ post.title }}
+    {%- endif -%}
+  </div>
+  <span class="venue">
+  {{ post.venue_short }} &mdash; {{ post.date | date: "%B, %Y" }}
+  </span>
+  <br/>
+  <div class="summary">
+  {{ post.summary }}
+  </div>
+  </article>
+</div>

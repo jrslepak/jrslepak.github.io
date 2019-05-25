@@ -1,0 +1,55 @@
+p {
+    text-align: justify;
+}
+
+.talk {
+    padding: 1.5em;
+}
+
+.publication {
+    padding: 1.5em;
+    /* border: 1px solid blue; */
+}
+
+.authors {
+    display: inline-block;
+    float: left;
+    /* border: 1px solid black; */
+}
+
+.title {
+    font-size: 24px;
+    /* border: 1px solid black; */
+}
+
+.venue {
+    font-style: oblique;
+    float: right;
+    /* border: 1px solid black; */
+    /* margin-left: 1em; */
+}
+
+.summary {
+    text-align: justify;
+    /* border: 1px solid black; */
+}
+
+.publication > .links {
+    margin-top: 10px;
+    margin-left: 0;
+    /* border: 1px solid red; */
+}
+
+.publication > .links > li {
+    display: inline-block;
+    /* border: 1px solid green; */
+    /* padding: 0 2em 0 2em; */
+    vertical-align: top;
+    /* margin-left: 1em; */
+    margin-right: 1em;
+    width: 15vw;
+}
+
+.slidesurl {
+
+}
