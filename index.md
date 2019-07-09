@@ -27,8 +27,9 @@ and ensures compatibility between functions and their arguments.
 Functions can be parameterized over
 individual dimensions and shapes (sequences of dimensions),
 allowing operations like summing along an array's major axis.
-The best detailed overview of the project is my
-[thesis proposal](writing/#proposal).
+The best detailed overview of the project is a
+[journal manuscript](https://arxiv.org/abs/1907.00509)
+currently under review.
 
 Current work on Remora is focused on type inference,
 to automatically instantiate dependently-typed functions at call sites
